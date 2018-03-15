@@ -154,6 +154,10 @@ PRODUCT_PACKAGES += \
 #PRODUCT_COPY_FILES += \
      #vendor/lineage/prebuilt/common/priv-app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
 
+#Font package
+PRODUCT_PACKAGES += \
+    Omega-Fonts
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
@@ -372,3 +376,4 @@ endif
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
+
