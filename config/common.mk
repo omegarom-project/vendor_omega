@@ -230,6 +230,28 @@ PRODUCT_PACKAGES += \
     SysUIBlack \
     MDroidElevenBlackTheme
 
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStileDefault \
+    QStileCircleTrim \
+    QStileCircleDualTone \
+    QStileCircleGradient \
+    QStileDottedCircle \
+    QStileDualToneCircle \
+    QStileInk \
+    QStileInkdrop \
+    QStileMountain \
+    QStileNinja \
+    QStileOreo \
+    QStileOreoCircleTrim \
+    QStileOreoSquircleTrim \
+    QStilePokesign \
+    QStileSquaremedo \
+    QStileSquircle \
+    QStileSquircleTrim \
+    QStileTeardrop \
+    QStileWavey
+
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
     7z \
