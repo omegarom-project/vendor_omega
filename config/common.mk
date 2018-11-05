@@ -150,6 +150,10 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
+# Substratum
+PRODUCT_PACKAGES += \
+    SubstratumSignature
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
