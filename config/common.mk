@@ -252,6 +252,14 @@ PRODUCT_PACKAGES += \
     QStileTeardrop \
     QStileWavey
 
+# QS header styles
+PRODUCT_PACKAGES += \
+    QSHeaderBlack \
+    QSHeaderGrey \
+    QSHeaderLightGrey \
+    QSHeaderAccent \
+    QSHeaderTransparent
+
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
     7z \
