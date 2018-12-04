@@ -162,20 +162,51 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Exchange2
 
-# Berry styles
+# Accents
 PRODUCT_PACKAGES += \
-    LineageBlackTheme \
-    LineageDarkTheme \
-    LineageBlackAccent \
-    LineageBlueAccent \
-    LineageBrownAccent \
-    LineageCyanAccent \
-    LineageGreenAccent \
-    LineageOrangeAccent \
-    LineagePinkAccent \
-    LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
+    Amber \
+    Black \
+    Blue \
+    BlueGrey \
+    Brown \
+    Cyan \
+    DeepOrange \
+    DeepPurple \
+    Green \
+    Grey \
+    Indigo \
+    LightBlue \
+    LightGreen \
+    Lime \
+    Orange \
+    Pink \
+    Purple \
+    Red \
+    Teal \
+    UserOne \
+    UserTwo \
+    UserThree \
+    UserFour \
+    UserFive \
+    UserSix \
+    UserSeven \
+    Yellow \
+    White
+
+# Themes
+PRODUCT_PACKAGES += \
+    GBoardDark \
+    NotificationDark \
+    SettingsDark \
+    SettingsIntelligenceDark \
+    SystemDark \
+    SysUIDark \
+    GBoardBlack \
+    NotificationBlack \
+    SettingsBlack \
+    SettingsIntelligenceBlack \
+    SystemBlack \
+    SysUIBlack
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
