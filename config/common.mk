@@ -151,8 +151,8 @@ PRODUCT_PACKAGES += \
     WeatherProvider
 
 # SubstratumSignature Package
-PRODUCT_COPY_FILES += \
-     vendor/lineage/prebuilt/common/app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
+#PRODUCT_COPY_FILES += \
+     #vendor/lineage/prebuilt/common/priv-app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
 
 # Exchange support
 PRODUCT_PACKAGES += \
