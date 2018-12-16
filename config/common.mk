@@ -150,9 +150,9 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
-# Substratum
-PRODUCT_PACKAGES += \
-    SubstratumSignature
+# SubstratumSignature Package
+PRODUCT_COPY_FILES += \
+     vendor/lineage/prebuilt/common/app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
 
 # Exchange support
 PRODUCT_PACKAGES += \
