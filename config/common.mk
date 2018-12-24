@@ -169,6 +169,7 @@ PRODUCT_PACKAGES += \
     Blue \
     BlueGrey \
     Brown \
+    BubblegumPink \
     Cyan \
     DeepOrange \
     DeepPurple \
