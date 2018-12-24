@@ -182,6 +182,7 @@ PRODUCT_PACKAGES += \
     Pink \
     Purple \
     Red \
+    Netflix \
     Teal \
     UserOne \
     UserTwo \
