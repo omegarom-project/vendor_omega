@@ -150,24 +150,65 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
+# SubstratumSignature Package
+#PRODUCT_COPY_FILES += \
+     #vendor/lineage/prebuilt/common/priv-app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
+
+#Font package
+PRODUCT_PACKAGES += \
+    Omega-Fonts
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
 
-# Berry styles
+# Accents
 PRODUCT_PACKAGES += \
-    LineageBlackTheme \
-    LineageDarkTheme \
-    LineageBlackAccent \
-    LineageBlueAccent \
-    LineageBrownAccent \
-    LineageCyanAccent \
-    LineageGreenAccent \
-    LineageOrangeAccent \
-    LineagePinkAccent \
-    LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
+    Amber \
+    Black \
+    Blue \
+    BlueGrey \
+    Brown \
+    BubblegumPink \
+    Cyan \
+    DeepOrange \
+    DeepPurple \
+    Green \
+    Grey \
+    Indigo \
+    LightBlue \
+    LightGreen \
+    Lime \
+    Orange \
+    Pink \
+    Purple \
+    Red \
+    Netflix \
+    Teal \
+    UserOne \
+    UserTwo \
+    UserThree \
+    UserFour \
+    UserFive \
+    UserSix \
+    UserSeven \
+    Yellow \
+    White
+
+# Themes
+PRODUCT_PACKAGES += \
+    GBoardDark \
+    NotificationDark \
+    SettingsDark \
+    SettingsIntelligenceDark \
+    SystemDark \
+    SysUIDark \
+    GBoardBlack \
+    NotificationBlack \
+    SettingsBlack \
+    SettingsIntelligenceBlack \
+    SystemBlack \
+    SysUIBlack
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
@@ -368,3 +409,4 @@ endif
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
+
