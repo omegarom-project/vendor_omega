@@ -154,6 +154,9 @@ PRODUCT_PACKAGES += \
 #PRODUCT_COPY_FILES += \
      #vendor/lineage/prebuilt/common/priv-app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
 
+# Moto Widget
+    include vendor/omega/prebuilt/common/MotoClock.mk
+
 # Prebuilt packages
 PRODUCT_PACKAGES += \
     GoogleClock
