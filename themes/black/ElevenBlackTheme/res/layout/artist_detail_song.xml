@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp" >
+
+    <ImageView
+        android:id="@*org.lineageos.eleven:id/album_art"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@*org.lineageos.eleven:dimen/list_preferred_item_padding"
+        android:layout_marginBottom="@*org.lineageos.eleven:dimen/list_preferred_item_padding"
+        android:layout_marginRight="@*org.lineageos.eleven:dimen/list_preferred_item_padding"
+        android:layout_marginLeft="@*org.lineageos.eleven:dimen/list_item_general_margin" />
+
+    <LinearLayout
+        android:id="@*org.lineageos.eleven:id/right_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginRight="@*org.lineageos.eleven:dimen/list_item_general_margin">
+        <ImageView
+            android:id="@*org.lineageos.eleven:id/now_playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@*org.lineageos.eleven:drawable/now_playing_icon"
+            android:visibility="gone" />
+
+        <org.lineageos.eleven.widgets.PopupMenuButton
+            android:id="@*org.lineageos.eleven:id/overflow"
+            android:layout_width="@*org.lineageos.eleven:dimen/overflow_width"
+            android:layout_height="@*org.lineageos.eleven:dimen/overflow_height"
+            android:src="@*org.lineageos.eleven:drawable/menu_button_light" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@*org.lineageos.eleven:id/title"
+        style="@*org.lineageos.eleven:style/ListItemMainText.Single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@*org.lineageos.eleven:id/right_container"
+        android:layout_toRightOf="@*org.lineageos.eleven:id/album_art"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@*org.lineageos.eleven:id/album"
+        style="@*org.lineageos.eleven:style/ListItemSecondaryText.Single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@*org.lineageos.eleven:id/title"
+        android:layout_toRightOf="@*org.lineageos.eleven:id/album_art"
+        android:layout_toLeftOf="@*org.lineageos.eleven:id/right_container"
+        android:layout_marginTop="-2dp" />
+
+    <ImageView
+        android:id="@*org.lineageos.eleven:id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@*org.lineageos.eleven:drawable/inset_list_divider" />
+</RelativeLayout>

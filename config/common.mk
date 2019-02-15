@@ -210,12 +210,14 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceDark \
     SystemDark \
     SysUIDark \
+    MDroidElevenDarkTheme \
     GBoardBlack \
     NotificationBlack \
     SettingsBlack \
     SettingsIntelligenceBlack \
     SystemBlack \
-    SysUIBlack
+    SysUIBlack \
+    MDroidElevenBlackTheme
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \

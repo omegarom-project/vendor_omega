@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="primary">@android:color/black</color>
+	<color name="primary_dark">@android:color/black</color>
+    <color name="list_item_text_color">#fafafa</color>
+    <color name="album_detail_title_text_color">#fafafa</color>
+    <color name="list_item_divider_color">#4cfafafa</color>
+    <color name="album_detail_song_count_and_year_text_color">#fafafa</color>
+    <color name="album_detail_genre_text_color">#fafafa</color>
+    <color name="album_detail_duration_text_color">#fafafa</color>
+    <color name="bottom_action_bar_text_color">#fafafa</color>
+    <color name="background_color">@android:color/black</color>
+    <color name="menu_text_color">#fafafa</color>
+    <color name="no_results">#fafafa</color>
+    <color name="grid_list_item_text_color">#b3fafafa</color>
+    <color name="list_item_header_text_color">#fafafa</color>
+    <color name="page_header_background">@android:color/black</color>
+    <color name="list_base_container_background_color">@android:color/black</color>
+</resources>

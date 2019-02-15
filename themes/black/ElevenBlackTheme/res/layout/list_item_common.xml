@@ -1,0 +1,61 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@*org.lineageos.eleven:id/image"
+        android:layout_width="@*org.lineageos.eleven:dimen/list_item_image_width"
+        android:layout_height="@*org.lineageos.eleven:dimen/list_item_image_height"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@*org.lineageos.eleven:dimen/list_item_image_height"
+        android:layout_toRightOf="@*org.lineageos.eleven:id/image"
+        android:layout_toLeftOf="@*org.lineageos.eleven:id/line_one_right"
+        android:gravity="center_vertical"
+        android:minHeight="@*org.lineageos.eleven:dimen/item_normal_height"
+        android:paddingLeft="@*org.lineageos.eleven:dimen/list_preferred_item_padding" >
+
+        <TextView
+            android:id="@*org.lineageos.eleven:id/line_one"
+            style="@*org.lineageos.eleven:style/ListItemMainText.Single"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@*org.lineageos.eleven:id/line_two"
+            style="@*org.lineageos.eleven:style/ListItemSecondaryText.Single"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@*org.lineageos.eleven:id/line_one" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@*org.lineageos.eleven:id/line_one_right"
+        style="@*org.lineageos.eleven:style/ListItemSecondaryText.Single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@*org.lineageos.eleven:id/right_container"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:id="@*org.lineageos.eleven:id/right_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@*org.lineageos.eleven:id/now_playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@*org.lineageos.eleven:drawable/now_playing_icon"
+            android:visibility="gone" />
+
+        <org.lineageos.eleven.widgets.PopupMenuButton
+            android:id="@*org.lineageos.eleven:id/popup_menu_button"
+            android:layout_width="@*org.lineageos.eleven:dimen/overflow_width"
+            android:layout_height="@*org.lineageos.eleven:dimen/overflow_height"
+            android:src="@*org.lineageos.eleven:drawable/menu_button_light" />
+    </LinearLayout>
+</merge>
