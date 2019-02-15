@@ -22,6 +22,10 @@
     <color name="accent_device_default_700">#FF42f4aa</color>
     <color name="accent_device_default_light">#FF42f4aa</color>
     <color name="accent_device_default_dark">#FF42f4aa</color>
+    <color name="material_deep_teal_200">#FF42f4aa</color>
+    <color name="material_deep_teal_500">#FF42f4aa</color>
+    <color name="notification_icon_bg_color">#FF42f4aa</color>
+    <color name="system_notification_accent_color">#FF42f4aa</color>
 
     <!-- Fastscroller -->
     <color name="fastscroller_text_color">#FF000000</color>

@@ -22,6 +22,10 @@
     <color name="accent_device_default_700">#FFFFFFFF</color>
     <color name="accent_device_default_light">#FFFFFFFF</color>
     <color name="accent_device_default_dark">#FFFFFFFF</color>
+    <color name="material_deep_teal_200">#FFFFFFFF</color>
+    <color name="material_deep_teal_500">#FFFFFFFF</color>
+    <color name="notification_icon_bg_color">#FFFFFFFF</color>
+    <color name="system_notification_accent_color">#FFFFFFFF</color>
 
     <!-- Fastscroller -->
     <color name="fastscroller_text_color">#FF000000</color>
