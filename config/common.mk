@@ -200,6 +200,7 @@ PRODUCT_PACKAGES += \
     UserFive \
     UserSix \
     UserSeven \
+    Yandex \
     Yellow \
     White
 
