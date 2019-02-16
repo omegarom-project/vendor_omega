@@ -5,5 +5,5 @@
     android:versionName="1.0">
     <overlay android:targetPackage="android" android:priority="1"/>
 
-    <application android:label="DeepPurple" android:hasCode="false"/>
+    <application android:label="Dark Indigo" android:hasCode="false"/>
 </manifest>
