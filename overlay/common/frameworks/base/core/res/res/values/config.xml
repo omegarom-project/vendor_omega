@@ -100,6 +100,5 @@
 
     <!-- Lawnstep -->
     <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
->>>>>>> b7e09ae... potato: Switch to Lawnchair
 </resources>
 
