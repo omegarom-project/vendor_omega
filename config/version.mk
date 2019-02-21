@@ -14,8 +14,8 @@
 
 # Versioning System
 # OmegaROM Version.
-OMEGA_VERSION_NUMBER := v1.0
-OMEGA_VERSION_P := 1.0
+OMEGA_VERSION_NUMBER := v0.1
+OMEGA_VERSION_P := 0.1
 OMEGA_BUILD_DATE := $(shell date -u +%Y%m%d)
 OMEGA_DEVICE := $(OMEGA_BUILD)
 
