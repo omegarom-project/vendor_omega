@@ -150,6 +150,10 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
+#Custom Omega packages
+PRODUCT_PACKAGES += \
+    WeatherClient
+
 # SubstratumSignature Package
 #PRODUCT_COPY_FILES += \
      #vendor/lineage/prebuilt/common/priv-app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
