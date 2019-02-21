@@ -5,7 +5,7 @@
 
 export S=/system
 export C=/postinstall/tmp/backupdir
-export V=1.0
+export V=0.1
 
 export ADDOND_VERSION=2
 
@@ -50,9 +50,9 @@ if [ ! -r /system/build.prop ]; then
     return 0
 fi
 
-grep -q "^ro.omega.version=$V.*" /system/build.prop && return 1
+#grep -q "^ro.omega.version=$V.*" /system/build.prop && return 1
 
-echo "Not backing up files from incompatible version: $V"
+#echo "Not backing up files from incompatible version: $V"
 return 0
 }
 
