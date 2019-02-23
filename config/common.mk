@@ -251,7 +251,8 @@ PRODUCT_PACKAGES += \
     QStileSquircle \
     QStileSquircleTrim \
     QStileTeardrop \
-    QStileWavey
+    QStileWavey \
+    QStileHexagonDualTone
 
 # QS header styles
 PRODUCT_PACKAGES += \
